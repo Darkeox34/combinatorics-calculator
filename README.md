@@ -1,7 +1,7 @@
-#With this program you will be able to calculate the following things:
+<h1>With this program you will be able to calculate the following things:</h1>
 
-##Permutations (including repetitions)
+<h2>Permutations (including repetitions)
 
-##Dispositions (including repetitions)
+Dispositions (including repetitions)
 
-##Combinations (including repetitions)
+Combinations (including repetitions)</h2>
