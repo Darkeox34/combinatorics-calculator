@@ -2,6 +2,7 @@
 
 <h2>Permutations (including repetitions)
 
+  
 Dispositions (including repetitions)
 
 Combinations (including repetitions)</h2>
