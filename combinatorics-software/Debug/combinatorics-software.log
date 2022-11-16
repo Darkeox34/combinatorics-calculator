@@ -1,0 +1,4 @@
+﻿  combinatorics-software.cpp
+C:\Users\shabl\source\repos\combinatorics-software\combinatorics-software\Helper.h(47,20): warning C4018: '<': errata corrispondenza tra signed e unsigned
+C:\Users\shabl\source\repos\combinatorics-software\combinatorics-software\Helper.h(50,22): warning C4018: '<': errata corrispondenza tra signed e unsigned
+  combinatorics-software.vcxproj -> C:\Users\shabl\source\repos\combinatorics-software\Debug\combinatorics-software.exe
