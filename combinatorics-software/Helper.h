@@ -9,6 +9,20 @@ int fact(int n) {
 		return n * fact(n - 1);
 }
 
+int pow(int n, int m) {
+	if (m == 0)
+		return 1;
+	else
+		return n * pow(n, m-1);
+}
+
+bool cifian(string s) {
+	for (int i = 0; i < s.length(); i++) {
+		if (!isdigit(s[i]))
+			return false;
+	}
+	return true;
+}
 
 template <typename T>
 class node {
@@ -25,15 +39,26 @@ private:
 	node<T>* head;
 public:
 
-	linkedlist() { head = nullptr; }
+	linkedlist() { 
+		head = nullptr; 
+	}
+
+	~linkedlist() {
+		node<T>* current = head;
+		node<T>* iter;
+
+		while (current != NULL) {
+			iter = current->next;
+			delete current;
+			current = iter;
+		}
+	}
 
 	void insert(T data);
 
 	bool findVal(T data);
 
 	int listFact(string s);
-
-	void deleteList();
 
 	void print();
 };
